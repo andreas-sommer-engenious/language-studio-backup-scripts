@@ -19,13 +19,19 @@
 ## Usage
 ### Export_QnA_CLU.ps1
 
-<p>Examples:</p>
+<p>Examples QnA:</p>
 <code>Export_QnA_CLU.ps1 -ApiURL "https://lanuage-rc.cognitiveservices.azure.com/language/authoring/query-knowledgebases/projects/QnA-Test/:export?stringIndexType=Utf16CodeUnit&api-version=2023-04-01&format=json" -SubscriptionKey "d1234c456d789" -FilePath "C:\Workspace\qna.json"</code>
+
+<p>Examples CLU:</p>
+<code>Export_QnA_CLU.ps1 -ApiURL "https://lanuage-rc.cognitiveservices.azure.com/language/authoring/analyze-conversations/projects/CLU-Test/:export?stringIndexType=Utf16CodeUnit&api-version=2023-04-01&format=json" -SubscriptionKey "d1234c456d789" -FilePath "C:\Workspace\clu.json"</code>
 
 ### Import_QnA_CLU.ps1
 
-<p>Examples:</p>
+<p>Examples QnA:</p>
 <code>Import_QnA_CLU.ps1 -ApiURL "https://lanuage-rc.cognitiveservices.azure.com/language/authoring/query-knowledgebases/projects/QnA-Test/:import?stringIndexType=Utf16CodeUnit&api-version=2023-04-01&format=json" -SubscriptionKey "d1234c456d789" -FilePath "C:\Workspace\qna.json"</code>
+
+<p>Examples CLU:</p>
+<code>Import_QnA_CLU.ps1 -ApiURL "https://lanuage-rc.cognitiveservices.azure.com/language/authoring/analyze-conversations/projects/CLU-Test/:import?stringIndexType=Utf16CodeUnit&api-version=2023-04-01&format=json" -SubscriptionKey "d1234c456d789" -FilePath "C:\Workspace\clu.json"</code>
 
 ### Train_CLU.ps1
 
